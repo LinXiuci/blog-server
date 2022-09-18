@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+# # 是否开启swagger，线上环境一般是需要关闭的
+# springfox:
+#   documentation:
+#     auto-startup: false
+
+# 配置Swagger的信息
+swagger:
+  title: 林染同学的个人博客API
+  basePackage: com.linran.controller
+  description: 愿煦日的和风护卫着可爱的你，愿你带着满满的春笑回来。
+  version: v3.0
+  name: 林染同学
+  url: https://github.com/LinXiuci
+  email: 1876788496@qq.com
